@@ -1,6 +1,6 @@
 body{
-    color:wheat ;
-    background-color: rgb(128, 12, 12);
+    color:White ;
+    background-color: #0E77E7;
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
@@ -15,14 +15,14 @@ ul{
 }
 
 a{
-    color:wheat;
+    color:rgb(146, 12, 12);
     text-decoration:none ;
 }
 header img{
   width: 150px;
   range: 150px;  
   border-radius: 50%;
-  border: 5px solid #ff1100;
+  border: 5px solid #ec1111;
 }
 
 
@@ -33,7 +33,7 @@ header img{
 }
 
 h1{
-  color: #a70707;
+  color: rgb(173, 93, 1)
 
 }
 footer img{
@@ -52,4 +52,25 @@ footer a{
   margin: 20px ;
 
 text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+h3{
+  color: #EC1111;
 }
