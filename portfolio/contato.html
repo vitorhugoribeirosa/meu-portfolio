@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Contato</title>
+    <title>Contato - Vitor Hugo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             flex-direction: column;
         }
@@ -26,7 +26,7 @@
 
         nav ul li a {
             text-decoration: none;
-            color: White;
+            color: white;
             font-size: 16px;
         }
 
@@ -34,8 +34,9 @@
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+            padding: 24px;
             text-align: center;
+            max-width: 360px;
         }
 
         h2 {
@@ -62,36 +63,37 @@
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="Projeto.html">Projeto</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Sobre mim</a></li>
-        <li><a href="projeto.html">Projeto</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
-</nav>
+    <div class="contato">
+        <h2>Contato</h2>
+        <div class="contato-info">
+            GitHub: <a href="https://github.com/vitorhugoribeirosa" target="_blank" rel="noopener noreferrer">vitorhugoribeirosa</a>
+        </div>
+        <div class="contato-info">
+            LinkedIn: <a href="https://www.linkedin.com/in/vitor-hugo-a9a9212a3/" target="_blank" rel="noopener noreferrer">Vitor Hugo</a>
+        </div>
+        <div class="contato-info">
+            Instagram: <a href="https://www.instagram.com/vitorhrs_/" target="_blank" rel="noopener noreferrer">@vitorhrs_</a>
+        </div>
 
-<div class="contato">
-    <h2>Contato</h2>
-    <div class="contato-info">
-        📧 <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+        <div class="social-icons">
+            <a href="https://github.com/vitorhugoribeirosa" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </a>
+            <a href="https://www.instagram.com/vitorhrs_/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/vitor-hugo-a9a9212a3/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+        </div>
     </div>
-    <div class="contato-info">
-        📞 <a href="tel:999999999">(99) 99999-9999</a>
-    </div>
-
-    <div class="social-icons">
-        <a href="https://www.facebook.com/vitor.hugoribeirosa" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
-        </a>
-        <a href="https://www.instagram.com/vitorhrs_/" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
-        </a>
-        <a href="https://linkedin.com/" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-        </a>
-    </div>
-</div>
-
 </body>
 </html>
